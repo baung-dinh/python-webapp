@@ -52,4 +52,4 @@ def parseCSV(filePath):
         print(i,row['first_name'],row['last_name'],row['address'],row['street'],row['state'],row['zip'])
 
 if __name__ == '__main__':
-   app.run()
+   app.run(host='0.0.0.0', debug = False)
